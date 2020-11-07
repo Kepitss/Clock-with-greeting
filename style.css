@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.clock-background {
+    background: url('background.png');
+    height: 100vh;
+    padding-top: 15%;
+}
+
+.clock {    
+    background-color: white;
+    border: 25px solid #1958aa;
+    border-radius: 3px;
+    width: 750px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.greeting {
+    /* Text */
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: white;
+
+    /* Box */
+    background-color: red;
+    padding: 3px;
+    width: 250px;
+    text-align: center;
+    border-radius: 3px;
+
+    /* Aling item */
+    position: absolute;
+    top: -15px;
+    left: 240px;
+}
+
+
+.time {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 7em;
+    letter-spacing: -6px;
+
+    padding: 60px 100px;
+}
